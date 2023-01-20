@@ -30,3 +30,7 @@ The sketch requires you to have the following library installed:
 # Wiring Diagram
 Attach the Ethernet Shield to the top of the Arduino Uno like normal. Wire the GPS module to pins 2 and 3 as depicted below (pins can easily be changed in the sketch if needed).
 ![alt text](https://raw.githubusercontent.com/sniporbob/ArduinoGPStoCOT/main/Wiring%20diagram/GPStoCOTwiring.png)
+
+# Why Would I Want This?
+I have no idea. Perhaps it would be useful for attaching to a piece of equipment or a vehicle that you'd like to track, but don't want to dedicate an entire EUD?
+This could also form the beginning of a tripwire by incorporating a PIR sensor and multicasting a hostile marker when triggered.
