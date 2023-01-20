@@ -36,8 +36,6 @@ char type2525[] = "a-f-G-U-U-S-R"; // The 2525C marker icon
 // make sure the first two characters are lowercase, and drop the first "P".
 // For example SFGPUC from the website should be input as a-f-G-U-C.
 
-int staleMinuteCalc = 30; // The CoT stale time, in minutes. Unreasonable values untested.
-
 // Enter a MAC address and IP address for your Ethernet Shield.
 // There should be a sticker on the ethernet shield with the MAC (does not include the "0x").
 // The IP address should be within the IP range of your network.
@@ -52,6 +50,8 @@ IPAddress lanIP(10, 13, 37, 222);
 ////////////////////////////////
 //// OPTIONAL CONFIGURATION ////
 
+int staleMinuteCalc = 30; // The CoT stale time, in minutes. Unreasonable values untested.
+ 
 // This is the default ATAK multicast address/port for PLI. Recommend don't change.
 IPAddress mcastIP(239, 2, 3, 1);
 unsigned int mcastPort = 6969;
